@@ -1,0 +1,39 @@
+{
+  "tests": {
+    "snapshot_select": 14,
+    "passed": 14,
+    "network_disabled_for_replay_tests": true
+  },
+  "live_capture": {
+    "method": "eth_getBlockByNumber",
+    "params": [
+      "finalized",
+      false
+    ],
+    "block_decimal": 26195002,
+    "snapshot_bytes": 20467
+  },
+  "wall": {
+    "format": "PNG",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "sha256": "36cb5f507370975dbf261dbef71560cf550ff5aa05af904dbe490c7500496fe1",
+    "changed_pixels": 423,
+    "unchanged_pixels": 1572093,
+    "ancestor_hash_verified": true
+  },
+  "thumbnail": {
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 76248
+  },
+  "record": 34,
+  "goal_and_prior_records_unchanged": true,
+  "all_changed_paths_in_scope": true,
+  "unmet_visual_requirements": []
+}

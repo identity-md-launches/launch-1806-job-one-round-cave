@@ -1,0 +1,39 @@
+{
+  "record": 34,
+  "ancestor_sha256": "94d45032720e25353df15702b2fb17e02f3f2948a8f9a27cc10745bee2f28c66",
+  "output_sha256": "36cb5f507370975dbf261dbef71560cf550ff5aa05af904dbe490c7500496fe1",
+  "wall": {
+    "paths": [
+      "artifacts/line-1/wall.png",
+      "artifacts/line-1/wall-v14.png"
+    ],
+    "width": 1254,
+    "height": 1254,
+    "format": "PNG",
+    "mode": "RGB"
+  },
+  "thumbnail": {
+    "path": "dist/line-1/34.jpg",
+    "width": 512,
+    "height": 512,
+    "format": "JPEG",
+    "bytes": 76248
+  },
+  "generation": {
+    "tool": "mcp__image__generate_image",
+    "draft_sha256": "5516593e2a858066bbac07fd26f2b34b880aac0589fb8c42811aa3665ec4c82e",
+    "prompt": "A sparse prehistoric pigment transfer: one small curved twig in worn charcoal, branching once into two tips, with one irregular hollow red ochre seed at only one tip. Symbolizes following a branch to a chosen seed. Handmade cave drawing with uneven rubbed strokes, dry pigment texture and much empty pure white carrier around it. Flat two-dimensional earth pigment only. Centered compact motif. No text, letters, numbers, hands, people, frogs, logos, frame, shadow or background texture. Only charcoal twig and ochre seed on pure white; this will be transferred onto an existing cave painting without altering its rock.",
+    "draft_retained": false
+  },
+  "changed_pixels": 423,
+  "unchanged_pixels": 1572093,
+  "changed_bounds_inclusive": [
+    855,
+    573,
+    899,
+    637
+  ],
+  "preservation": "Only dark pigment transferred to bare stone; all other pixels unchanged, including Pepe, older marks, framing and deep cracks.",
+  "visual_review": "Full PNG and decoded 512-px JPEG inspected. Pepe retains wide mouth, heavy-lidded eyes and five digits on each inherited hand. No hands added. A small charcoal twig with an ochre seed occupies bare stone. No letters, numerals, captions, signatures, logos, frames, people or prohibited symbols observed. Existing rock, cracks, light, framing and older pigment remain.",
+  "unmet_visual_requirements": []
+}

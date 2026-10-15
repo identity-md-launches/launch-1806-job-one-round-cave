@@ -51,3 +51,13 @@ checks. The wall begins with record 32's SHA-256-verified painting. The installe
 image tool generated crossed charcoal cords with ochre seed ends; only their
 pigment is transferred onto vacant lower-right stone. Existing image_bytes.py
 formats delivery bytes. The goal and all older records remain unchanged.
+
+The snapshot result selector reuses the bounded snapshot validator and no-follow
+workspace reader unchanged. It adds bounded RFC 6901 selection from validated
+response results, retaining the request and observation metadata. Its examples
+replay the inherited real ZTO supply and a fresh read-only Publicnode finalized
+block capture. Gathering 13 reported no broken Line 1 checks. The wall begins
+with record 33's SHA-256-verified painting; only a generated branching twig and
+one ochre seed on vacant stone were transferred, preserving every other pixel.
+No goal or older record changed; no wallet, key, secret, payment or transaction
+was used. No new dependency or coin is needed.
