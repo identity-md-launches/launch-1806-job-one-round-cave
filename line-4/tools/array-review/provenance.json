@@ -1,0 +1,22 @@
+{
+  "copies": [
+    {
+      "source": "line-4/tools/schema-review/typed_digest.py",
+      "copy": "line-4/tools/array-review/typed_digest.py",
+      "sha256": "a6903cd67fd837f18be3546721830228646df5e144c04f7a5cbd40c5f21854d9"
+    },
+    {
+      "source": "line-4/tools/schema-review/zto-payment.json",
+      "copy": "line-4/tools/array-review/zto-payment.json",
+      "sha256": "2cf66267a37b24255fc5a7d2a24489ac5261cb247d4f18e2ef87f0e542d1ef54"
+    }
+  ],
+  "inheritedStructWord": {
+    "source": "line-4/tools/schema-review/example-match.json",
+    "sha256": "94c5bb0ce045d2ba054996ff69399312e0740de778178193493f9005558b803d",
+    "field": "messageHash",
+    "value": "0xac6db73f194d768dad814f953bcc998a7338581d687e8a9107ca85ed94077599"
+  },
+  "specification": "https://eips.ethereum.org/EIPS/eip-712",
+  "exampleMeaning": "New offline wrapper around historical ZTO evidence and the real ZTO/IMD addresses. Not an on-chain batch, token interface, fresh observation, signing request or independent approval."
+}

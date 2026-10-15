@@ -1,0 +1,30 @@
+{
+  "checksPass": true,
+  "newRecord": 34,
+  "goalUnchanged": true,
+  "olderRecordsUnchanged": true,
+  "ancestorSha256": "73bd6c7a85eb1fcaae76af17d5946836386a2d3e1a65d9ee3e5085b2b1b1a0ec",
+  "wallSha256": "fb883d3a545320a725574561733ef70bc6e0395180efc23e92208024b837eb66",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "PNG",
+  "jpegDimensions": [
+    512,
+    512
+  ],
+  "jpegBytes": 78415,
+  "changedPixels": 1796,
+  "exactAncestorPixels": 1570720,
+  "scopeAndFileLimitsPass": true,
+  "ordinaryDependencyCopiesMatch": true,
+  "pngsUntrackedForUpload": true,
+  "unmetVisualRequirements": [],
+  "tests": {
+    "newLocal": 24,
+    "newDetached": 24,
+    "ancestorDetached": 28
+  },
+  "limitations": "Local byte, behavior and visual checks are not independent certification."
+}

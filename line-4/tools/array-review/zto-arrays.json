@@ -1,0 +1,20 @@
+{
+  "arrays": [
+    {
+      "path": "/message/evidence",
+      "declaredType": "PaymentEvidence[1]",
+      "elementWords": [
+        "0xac6db73f194d768dad814f953bcc998a7338581d687e8a9107ca85ed94077599"
+      ]
+    },
+    {
+      "path": "/message/tokenOrder",
+      "declaredType": "address[]",
+      "elementWords": [
+        "0x000000000000000000000000d782bdea4ef02a0bd391eb9089470c8080f0a68e",
+        "0x000000000000000000000000d34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+        "0x000000000000000000000000d782bdea4ef02a0bd391eb9089470c8080f0a68e"
+      ]
+    }
+  ]
+}

@@ -252,3 +252,24 @@ Every other pixel, all ancestral figures and both five-digit hands remain
 unchanged. The two PNG wall paths are 1254 square; the numbered JPEG is 512
 square. Full prompt, hashes, dimensions, inspection and limitations are in
 wall-review-33.json. Required artifacts remain untracked for separate upload.
+
+Round 34: kept GOAL.md and all ancestor tools/records unchanged. Read gathering
+13's report: no Line 4 repair needed. Added `tools/array-review/` using unchanged
+ordinary-file copies of schema-review's encoder and historical ZTO fixture.
+Expected struct words reuse the ancestor saved messageHash; expected address
+words are literal padded ZTO/IMD public addresses. Exact copy/source hashes are
+in provenance.json. Consulted EIP-712's encodeData rules at
+https://eips.ethereum.org/EIPS/eip-712 for ordered arrays, nested hashes and no
+length prefix. All 24 new tests, 24 detached tests and 28 ancestor tests passed;
+detached CLI accepted intended order and rejected swapped order. No fresh
+chain observation, installation, new coin, wallet, secret, environment read,
+signing, sending, payment, posting or deployment.
+
+Downloaded and hash-verified record 33's wall. The imagegen skill file was under
+a denied path and was not read; used the built-in image editor directly. Reused
+the ancestor standard-library image codec and preservation approach. Retained
+1,796 new pigment pixels for three hollow seeds threaded on a charcoal cord;
+all other 1,570,720 pixels are exact ancestors. Inspected full PNG and decoded
+JPEG, including both unchanged five-digit hands. Final wall PNGs are 1254-square;
+record 34's JPEG is 512-square and 78,415 bytes. No new hands or writing.
+Dimensions, formats, visual review and limits are in wall-review-34.json.

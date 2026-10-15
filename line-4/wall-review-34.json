@@ -1,0 +1,42 @@
+{
+  "wall": {
+    "paths": [
+      "artifacts/line-4/wall.png",
+      "artifacts/line-4/wall-v14.png"
+    ],
+    "width": 1254,
+    "height": 1254,
+    "format": "PNG",
+    "mode": "RGB",
+    "bytes": 3911015,
+    "sha256": "fb883d3a545320a725574561733ef70bc6e0395180efc23e92208024b837eb66"
+  },
+  "preview": {
+    "path": "dist/line-4/34.jpg",
+    "width": 512,
+    "height": 512,
+    "format": "JPEG",
+    "bytes": 78415,
+    "sha256": "219deb982910649b49294d34f23db9d361a614a802075d4155acc848cf43a660"
+  },
+  "ancestorSha256": "73bd6c7a85eb1fcaae76af17d5946836386a2d3e1a65d9ee3e5085b2b1b1a0ec",
+  "generatedDraftSha256": "298779aa9946c1d2707e23c4169f83c352418b854be9b29a8a3c30a29c6484f0",
+  "imageTool": "Built-in imagegen, generation 01a13d8e-31cb-7541-b723-d8510857f5dd",
+  "prompt": "Preserve the inherited square cave and every painting. Add only a small gently curved vertical charcoal cord threading three hollow red-ochre seed outlines on vacant rock above Pepe, between the old balance and upper chain. Worn earth pigments, bare rock inside seeds. Preserve Pepe and both original five-digit hands. No new hands, figures, writing, numerals, logos, watermarks or frames.",
+  "changedPixels": 1796,
+  "unchangedPixels": 1570720,
+  "additionBoundsExclusive": [
+    459,
+    132,
+    503,
+    272
+  ],
+  "preservation": "Every pixel outside the isolated new pigment is exact ancestor data. Deep fissures and seed interiors are protected. All older paintings, figure, hands, light, water and framing remain.",
+  "visualReview": "Inspected final full PNG and decoded 512-pixel JPEG. Pepe retains his wide mouth and heavy-lidded eyes. Both exact inherited hands retain four fingers and one thumb each. No hands or handprints were added. The three hollow ochre seeds and charcoal cord sit on previously unused upper stone. No letters, numerals, captions, signatures, logos, watermarks, added frames, real people, political or hateful symbols observed. Cave, light, cracks, colour, framing and water remain. No known mandatory visual requirement is unmet.",
+  "unmetVisualRequirements": [],
+  "limitations": [
+    "Local inspection is not independent visual certification.",
+    "The small upper-stone motif is subtle in the thumbnail.",
+    "The generated full draft changed surrounding texture; only isolated new pigment was retained."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "reviewVersion": 1,
+  "primaryType": "EvidenceBatch",
+  "typeEncoding": "EvidenceBatch(PaymentEvidence[1] evidence,address[] tokenOrder)PaymentEvidence(bytes32 transactionHash,address token,address recipient,uint256 minimumRaw,uint256 confirmations,bool requireFinalized,bytes32 transcriptHash)",
+  "domainSeparator": "0xb841b9b4b38823bdf4340d649cbad52a49cb75b55ddd1f91b457246dcb4f807d",
+  "messageHash": "0xd5eda069fca8bad40032c47c81709ed0ba8208d57d2a60e61322b4be250d8032",
+  "digest": "0xafd46e38940aa3cad45ccacf9ebbea5686570df15dcbf08e79119502d95605ba",
+  "arrays": [
+    {
+      "path": "/message/evidence",
+      "declaredType": "PaymentEvidence[1]",
+      "elementType": "PaymentEvidence",
+      "length": 1,
+      "elementWords": [
+        "0xac6db73f194d768dad814f953bcc998a7338581d687e8a9107ca85ed94077599"
+      ],
+      "arrayHash": "0x39f77ebc314dd52c2da25c9dd83e38984850805af70a7ed6588245b2e22df190",
+      "repeatedWordPositions": []
+    },
+    {
+      "path": "/message/tokenOrder",
+      "declaredType": "address[]",
+      "elementType": "address",
+      "length": 3,
+      "elementWords": [
+        "0x000000000000000000000000d782bdea4ef02a0bd391eb9089470c8080f0a68e",
+        "0x000000000000000000000000d34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+        "0x000000000000000000000000d782bdea4ef02a0bd391eb9089470c8080f0a68e"
+      ],
+      "arrayHash": "0xf6bdd29b4713e2deaba7701c76048e3d7890271d8f5a55b15753f04da40c21d0",
+      "repeatedWordPositions": [
+        [
+          0,
+          2
+        ]
+      ]
+    }
+  ],
+  "arrayExpectationProvided": true,
+  "digestExpectationProvided": true,
+  "interpretation": "Element words are ordered, zero-based, and always 32 bytes. Array hashes are Keccak-256 of concatenated element words, without a length prefix. Nested arrays contribute hashes; structs contribute hashStruct. Repeated words are observations, not errors or proof of duplicate raw values. Array expectations pin every observed path, declared array type and ordered word; they do not pin scalar fields outside arrays or complete schema. Use a separately controlled complete digest and schema for those checks. No match authorizes signing or payment.",
+  "unexpectedArrays": [],
+  "missingArrays": [],
+  "changedArrays": [],
+  "arraysMatchExpected": true,
+  "digestMatchesExpected": true,
+  "checksPass": true
+}

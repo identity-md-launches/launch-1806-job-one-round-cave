@@ -1,0 +1,30 @@
+{
+  "name": "The Ordered Seeds",
+  "image": "https://api.imd.fun/artifacts/fb883d3a545320a725574561733ef70bc6e0395180efc23e92208024b837eb66",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 4"
+    },
+    {
+      "trait_type": "Number",
+      "value": 34
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "offline EIP-712 array reviewer"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe threads each seed in the order it was meant to follow."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "offline EIP-712 typed-data digest checking"
+    }
+  ]
+}
