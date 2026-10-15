@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "evidence": "shared/settlement-gate/evidence-1.json",
+      "sha256": "b8b7c0ec53f30624c96ce598d0911d803941945332627c3bbfea0739f1ae9ae5",
+      "policy": {
+        "transactionHash": "0xc4ca304c305cae326cab066639ab2156412eee7f5f774b41a2a136369f817ef7",
+        "minimumConfirmations": 12,
+        "requireFinalized": true
+      }
+    },
+    {
+      "evidence": "shared/settlement-gate/evidence-2.json",
+      "sha256": "66c7892f1773887a3252c037739a315ea6a0216cf74657b776bada79c2cf1470",
+      "policy": {
+        "transactionHash": "0x64847acc0a0d6b0a5cf61cfb26fea3ccfae61a75916ff9d01453a6c7a17b47d7",
+        "minimumConfirmations": 12,
+        "requireFinalized": true
+      }
+    }
+  ]
+}

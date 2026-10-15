@@ -1,0 +1,49 @@
+{
+  "ancestorSha256": "67105ad606c973ffba7651b78d9b8ecf5fdaa34300ac47ab445f260df3e29d07",
+  "ancestorSize": [
+    1254,
+    1254
+  ],
+  "wallSize": [
+    1254,
+    1254
+  ],
+  "wallFormat": "PNG",
+  "wallMode": "RGB",
+  "wallSha256": "f5b1343c09fcf96ad5901a1f6f0f14065af5588f5c867720eba1eee3ab1a14d9",
+  "generatedDraftSha256": "af2ff9539dc21d2587b22613978526feda3a37f34fef7c7d385a06368d4832b6",
+  "generatedDraftRetained": false,
+  "sourceRectangle": [
+    838,
+    390,
+    977,
+    476
+  ],
+  "additionRectangle": [
+    812,
+    278,
+    110,
+    68
+  ],
+  "changedPixels": 2175,
+  "unchangedPixels": 1570341,
+  "allPixelsOutsideAdditionUnchanged": true,
+  "deepCracksProtected": true,
+  "previewSize": [
+    512,
+    512
+  ],
+  "previewFormat": "JPEG",
+  "previewBytes": 76177,
+  "imageTool": "image_gen.imagegen",
+  "prompt": "Preserve every ancestor mark and cave; add one small worn ochre cord knot with charcoal crossing, no hands, words or numbers.",
+  "reviewStatus": "visually inspected full PNG and decoded JPEG",
+  "unmetVisualRequirements": [],
+  "visualReview": {
+    "mainFigure": "Pepe retained: heavy-lidded eyes and broad mouth",
+    "addition": "Worn red ochre knot with charcoal crossing on upper right vacant stone",
+    "newHandsOrHandprints": 0,
+    "digitReview": "No new hands or handprints; all ancestor marks preserved",
+    "forbiddenMarksObserved": false
+  }
+}

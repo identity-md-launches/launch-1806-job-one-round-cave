@@ -1,0 +1,38 @@
+{
+  "accepted": false,
+  "state": "plan_review_required",
+  "baselineSha256": "751fa0b816bfee7a209166f8844365b629bcc5a0bbedf090dd9b3755f330f5db",
+  "proposedSha256": "ca50761a634b76fd0d28742bf720464647f9652b271cfb28f3dd28fe1098fba6",
+  "expectedBaselineSha256": "751fa0b816bfee7a209166f8844365b629bcc5a0bbedf090dd9b3755f330f5db",
+  "evidenceChecked": false,
+  "limitations": "Historical provider assertions only, not consensus or trie proofs. Retain the baseline hash independently. No payment amount, freshness, ownership, signing authority or cross-run deduplication. Compatible stricter plans can still fail evidence replay. No baseline is updated and nothing is sent.",
+  "structure": {
+    "valid": true,
+    "diagnostics": {
+      "baseline": [],
+      "proposed": []
+    }
+  },
+  "planReview": {
+    "planCompatible": false,
+    "state": "plan_review_required",
+    "baselineSha256": "751fa0b816bfee7a209166f8844365b629bcc5a0bbedf090dd9b3755f330f5db",
+    "expectedBaselineSha256": "751fa0b816bfee7a209166f8844365b629bcc5a0bbedf090dd9b3755f330f5db",
+    "proposedSha256": "ca50761a634b76fd0d28742bf720464647f9652b271cfb28f3dd28fe1098fba6",
+    "evidenceChecked": false,
+    "limitations": "Plan comparison only; evidence is not opened or replayed. A pass is not transaction settlement, payment approval or authorization. Retain the baseline hash independently. Replacing baseline and hash defeats this check. A stricter policy may require newly captured evidence before batch replay.",
+    "baselineCount": 2,
+    "proposedCount": 2,
+    "changes": [
+      {
+        "transactionHash": "0xc4ca304c305cae326cab066639ab2156412eee7f5f774b41a2a136369f817ef7",
+        "kind": "policy_weakened",
+        "field": "requireFinalized",
+        "before": true,
+        "after": false,
+        "blocking": true
+      }
+    ],
+    "orderChanged": false
+  }
+}

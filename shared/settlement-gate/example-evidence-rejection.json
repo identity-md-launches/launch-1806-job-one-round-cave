@@ -1,0 +1,98 @@
+{
+  "accepted": false,
+  "state": "input_error",
+  "baselineSha256": "751fa0b816bfee7a209166f8844365b629bcc5a0bbedf090dd9b3755f330f5db",
+  "proposedSha256": "73bb3b22649c0178a4e83fb78ca81414732c9ed7c847179db0b01f0f317043d7",
+  "expectedBaselineSha256": "751fa0b816bfee7a209166f8844365b629bcc5a0bbedf090dd9b3755f330f5db",
+  "evidenceChecked": true,
+  "limitations": "Historical provider assertions only, not consensus or trie proofs. Retain the baseline hash independently. No payment amount, freshness, ownership, signing authority or cross-run deduplication. Compatible stricter plans can still fail evidence replay. No baseline is updated and nothing is sent.",
+  "structure": {
+    "valid": true,
+    "diagnostics": {
+      "baseline": [],
+      "proposed": []
+    }
+  },
+  "planReview": {
+    "planCompatible": true,
+    "state": "plan_unchanged_or_stricter",
+    "baselineSha256": "751fa0b816bfee7a209166f8844365b629bcc5a0bbedf090dd9b3755f330f5db",
+    "expectedBaselineSha256": "751fa0b816bfee7a209166f8844365b629bcc5a0bbedf090dd9b3755f330f5db",
+    "proposedSha256": "73bb3b22649c0178a4e83fb78ca81414732c9ed7c847179db0b01f0f317043d7",
+    "evidenceChecked": false,
+    "limitations": "Plan comparison only; evidence is not opened or replayed. A pass is not transaction settlement, payment approval or authorization. Retain the baseline hash independently. Replacing baseline and hash defeats this check. A stricter policy may require newly captured evidence before batch replay.",
+    "baselineCount": 2,
+    "proposedCount": 2,
+    "changes": [
+      {
+        "transactionHash": "0xc4ca304c305cae326cab066639ab2156412eee7f5f774b41a2a136369f817ef7",
+        "kind": "policy_strengthened",
+        "field": "minimumConfirmations",
+        "before": 12,
+        "after": 1000000,
+        "blocking": false
+      }
+    ],
+    "orderChanged": false
+  },
+  "settlementReview": {
+    "accepted": false,
+    "state": "input_error",
+    "count": 2,
+    "acceptedCount": 1,
+    "conflictingBlockNumbers": [],
+    "items": [
+      {
+        "index": 0,
+        "transactionHash": "0xc4ca304c305cae326cab066639ab2156412eee7f5f774b41a2a136369f817ef7",
+        "policy": {
+          "transactionHash": "0xc4ca304c305cae326cab066639ab2156412eee7f5f774b41a2a136369f817ef7",
+          "minimumConfirmations": 1000000,
+          "requireFinalized": true
+        },
+        "expectedSha256": "b8b7c0ec53f30624c96ce598d0911d803941945332627c3bbfea0739f1ae9ae5",
+        "accepted": false,
+        "state": "input_error",
+        "reason": "Evidence unavailable, invalid or inconsistent with expected policy"
+      },
+      {
+        "index": 1,
+        "transactionHash": "0x64847acc0a0d6b0a5cf61cfb26fea3ccfae61a75916ff9d01453a6c7a17b47d7",
+        "policy": {
+          "transactionHash": "0x64847acc0a0d6b0a5cf61cfb26fea3ccfae61a75916ff9d01453a6c7a17b47d7",
+          "minimumConfirmations": 12,
+          "requireFinalized": true
+        },
+        "expectedSha256": "66c7892f1773887a3252c037739a315ea6a0216cf74657b776bada79c2cf1470",
+        "accepted": true,
+        "state": "pinned_position_and_settlement_match",
+        "actualSha256": "66c7892f1773887a3252c037739a315ea6a0216cf74657b776bada79c2cf1470",
+        "positionState": "position_and_settlement_match",
+        "alerts": [],
+        "transactionIndex": 146,
+        "transactionCount": 241,
+        "block": {
+          "number": 26194715,
+          "hash": "0xbcf84b28f9f3add08e929da543c1c2059a768af0bca33ea4af1dcb9ca6cf58d9"
+        },
+        "settlementState": "settled",
+        "head": {
+          "number": 26194846,
+          "hash": "0xae5feae8ff128ff0a0e5a79a09bf39b60aebafc760a653fe878ada3670cadfb7"
+        },
+        "inclusion": {
+          "number": 26194715,
+          "hash": "0xbcf84b28f9f3add08e929da543c1c2059a768af0bca33ea4af1dcb9ca6cf58d9"
+        },
+        "finalizedHead": {
+          "number": 26194781,
+          "hash": "0x06b97cbf80d4d072f2b30b15a409f7f5bda39231d1028f9675a51dca9e6abac1"
+        },
+        "confirmations": 132,
+        "finalized": true
+      }
+    ],
+    "limitations": "Historical provider assertions, not consensus or transaction-trie proofs. Pins and policies need independent custody. No freshness, payment amount, recipient ownership, authorization or cross-run deduplication is established. This report does not execute or record payments. Entries can sample different heads.",
+    "manifestSha256": "73bb3b22649c0178a4e83fb78ca81414732c9ed7c847179db0b01f0f317043d7"
+  }
+}

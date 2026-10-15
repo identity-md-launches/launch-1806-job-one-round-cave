@@ -81,3 +81,9 @@ Gathering 13 adds [complete payment schema review](payment-evidence/SCHEMA.md),
 joining Line 4's declaration comparison with Line 3's historical payment replay
 and Line 2's contracts. Unused client declarations now reject even with the same
 digest, exact bytes and accepted payment evidence.
+
+Gathering 14 adds the [retained plan and settlement gate](settlement-gate/README.md).
+Line 2's structural diagnostics join Line 3's non-weakening plan review and pinned
+batch replay. Compatible plans cannot bypass evidence checks; weaker plans never
+open evidence. Includes real historical ZTO fixtures, unchanged vendor copies,
+14 tests and a detached offline trial.
