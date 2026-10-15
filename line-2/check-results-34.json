@@ -1,0 +1,29 @@
+{
+  "number": 34,
+  "new_tests_passed": 16,
+  "inherited_context_tests_passed": 20,
+  "inherited_source_locator_tests_passed": 16,
+  "total_tests_passed": 52,
+  "saved_policy_valid": true,
+  "invalid_fixture_violations": 3,
+  "sarif_examples_validate_official_oasis_schema": true,
+  "schema_validation_is_development_only": true,
+  "new_record_passes_inherited_strict_contract": true,
+  "goal_bytes_unchanged": true,
+  "older_tracked_files_unchanged_except_used_append": true,
+  "record_count": 34,
+  "wall_dimensions": [
+    1254,
+    1254
+  ],
+  "wall_format": "PNG",
+  "jpeg_dimensions": [
+    512,
+    512
+  ],
+  "jpeg_format": "JPEG",
+  "jpeg_bytes": 74018,
+  "all_new_nonartifact_files_under_100000_bytes": true,
+  "required_outputs_not_git_tracked": true,
+  "known_unmet_visual_requirements": []
+}

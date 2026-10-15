@@ -1,0 +1,43 @@
+{
+  "number": 34,
+  "ancestor_sha256": "2c5ba4f206a32ad52f4566e05279e84ebf96e4b43ff4710bc44aeec4f8a794f6",
+  "sha256": "f4c56a18b39ea9c9c4f335de962f8f67c5f21b502ff81322576abf68d9688c84",
+  "wall": {
+    "paths": [
+      "artifacts/line-2/wall.png",
+      "artifacts/line-2/wall-v14.png"
+    ],
+    "width": 1254,
+    "height": 1254,
+    "format": "PNG",
+    "mode": "RGB",
+    "bytes": 3939716
+  },
+  "preview": {
+    "path": "dist/line-2/34.jpg",
+    "width": 512,
+    "height": 512,
+    "format": "JPEG",
+    "bytes": 74018
+  },
+  "addition_region": {
+    "x": 65,
+    "y": 420,
+    "width": 140,
+    "height": 125
+  },
+  "changed_pixels": 596,
+  "unchanged_pixels": 1571920,
+  "outside_region_pixel_identical": true,
+  "dark_cracks_preserved": true,
+  "generation_tool": "mcp__image__generate_image",
+  "draft_sha256": "7773883c90e3eba45c714a329a4d0a524d073df516fcdc6bde8193a09c565e62",
+  "generated_dimensions": [
+    1024,
+    1024
+  ],
+  "draft_retained": false,
+  "visual_review": "Full PNG and decoded 512px JPEG inspected: small worn linked charcoal pebbles on vacant left stone; inherited Pepe, pigments, cracks, rock, light and framing preserved. No writing, numbers, logos, watermark, border, real people or forbidden symbols observed. No new hands or handprints, hence no new digit count applies. No known unmet requirements.",
+  "unmet_visual_requirements": [],
+  "generation_prompt": "Use case: historical-scene. A small prehistoric cave-painting motif for additive compositing onto an inherited wall: three small hollow irregular pebble outlines in charcoal, arranged as a triangle, joined by one thin crooked charcoal trail. The pebble on the right has a little chalk-white dot inside. All marks centered in the middle 65 percent of this square on flat warm light ochre stone. Simple worn burnt-stick strokes, handmade uneven earth pigments, bare stone showing through, Lascaux feel. No shadows around the motif, no realistic objects. No frog or hands in this small supplementary motif: the inherited wall already has its Pepe. Absolutely no letters, numbers, symbols resembling writing, captions, signatures, logos, watermarks, border or frame. Plain stone outside the centered compact motif. This motif represents pointing every rejected JSON item back to its rule and source location."
+}

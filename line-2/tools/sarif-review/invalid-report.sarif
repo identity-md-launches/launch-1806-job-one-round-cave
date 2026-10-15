@@ -1,0 +1,498 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "Offline JSON contract reviewer",
+          "version": "1.0.0",
+          "rules": [
+            {
+              "id": "json-contract/additionalProperties",
+              "name": "additionalProperties",
+              "shortDescription": {
+                "text": "JSON structural contract: additionalProperties"
+              }
+            },
+            {
+              "id": "json-contract/minimum",
+              "name": "minimum",
+              "shortDescription": {
+                "text": "JSON structural contract: minimum"
+              }
+            },
+            {
+              "id": "json-contract/type",
+              "name": "type",
+              "shortDescription": {
+                "text": "JSON structural contract: type"
+              }
+            }
+          ]
+        }
+      },
+      "columnKind": "unicodeCodePoints",
+      "artifacts": [
+        {
+          "location": {
+            "uri": "line-2/tools/rule-locator/report.invalid.json"
+          },
+          "length": 139,
+          "hashes": {
+            "sha-256": "c346ea1106c87b8183edc96693a77bcf0ebefdcd8a4748e23e42592770af4638"
+          }
+        },
+        {
+          "location": {
+            "uri": "line-2/tools/json-contract/report.contract.json"
+          },
+          "length": 621,
+          "hashes": {
+            "sha-256": "42c48ea1ab01acc4270ab878bc8988c4439b5d9fad5c953123b76f44968c4c13"
+          }
+        }
+      ],
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "results": [
+        {
+          "ruleId": "json-contract/type",
+          "ruleIndex": 2,
+          "level": "error",
+          "message": {
+            "text": "expected boolean; JSON Pointer \"/checks/0/passed\""
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "line-2/tools/rule-locator/report.invalid.json",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 44,
+                  "endLine": 4,
+                  "endColumn": 49,
+                  "byteOffset": 92,
+                  "byteLength": 5
+                }
+              },
+              "properties": {
+                "kind": "value"
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "line-2/tools/json-contract/report.contract.json",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 30,
+                  "endLine": 17,
+                  "endColumn": 39,
+                  "byteOffset": 525,
+                  "byteLength": 9
+                }
+              },
+              "properties": {
+                "kind": "value"
+              },
+              "id": 1,
+              "message": {
+                "text": "Rejecting contract rule at /properties/checks/items/properties/passed/type"
+              }
+            }
+          ],
+          "properties": {
+            "diagnostic": {
+              "path": "/checks/0/passed",
+              "rule": "type",
+              "message": "expected boolean",
+              "contract_path": "/properties/checks/items/properties/passed/type",
+              "constraint": {
+                "present": true,
+                "type": "string",
+                "length": 7,
+                "preview": "\"boolean\"",
+                "truncated": false
+              },
+              "observed": {
+                "present": true,
+                "type": "string",
+                "length": 3,
+                "preview": "\"yes\"",
+                "truncated": false
+              },
+              "document_source": {
+                "file": "line-2/tools/rule-locator/report.invalid.json",
+                "present": true,
+                "value": {
+                  "start": {
+                    "line": 4,
+                    "column": 44,
+                    "char_offset": 92,
+                    "byte_offset": 92
+                  },
+                  "end": {
+                    "line": 4,
+                    "column": 49,
+                    "char_offset": 97,
+                    "byte_offset": 97
+                  }
+                },
+                "key": {
+                  "start": {
+                    "line": 4,
+                    "column": 34,
+                    "char_offset": 82,
+                    "byte_offset": 82
+                  },
+                  "end": {
+                    "line": 4,
+                    "column": 42,
+                    "char_offset": 90,
+                    "byte_offset": 90
+                  }
+                }
+              },
+              "contract_source": {
+                "file": "line-2/tools/json-contract/report.contract.json",
+                "present": true,
+                "value": {
+                  "start": {
+                    "line": 17,
+                    "column": 30,
+                    "char_offset": 525,
+                    "byte_offset": 525
+                  },
+                  "end": {
+                    "line": 17,
+                    "column": 39,
+                    "char_offset": 534,
+                    "byte_offset": 534
+                  }
+                },
+                "key": {
+                  "start": {
+                    "line": 17,
+                    "column": 22,
+                    "char_offset": 517,
+                    "byte_offset": 517
+                  },
+                  "end": {
+                    "line": 17,
+                    "column": 28,
+                    "char_offset": 523,
+                    "byte_offset": 523
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "ruleId": "json-contract/minimum",
+          "ruleIndex": 1,
+          "level": "error",
+          "message": {
+            "text": "must respect minimum 0; JSON Pointer \"/checks/0/seconds\""
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "line-2/tools/rule-locator/report.invalid.json",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 62,
+                  "endLine": 4,
+                  "endColumn": 64,
+                  "byteOffset": 110,
+                  "byteLength": 2
+                }
+              },
+              "properties": {
+                "kind": "value"
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "line-2/tools/json-contract/report.contract.json",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 52,
+                  "endLine": 18,
+                  "endColumn": 53,
+                  "byteOffset": 588,
+                  "byteLength": 1
+                }
+              },
+              "properties": {
+                "kind": "value"
+              },
+              "id": 1,
+              "message": {
+                "text": "Rejecting contract rule at /properties/checks/items/properties/seconds/minimum"
+              }
+            }
+          ],
+          "properties": {
+            "diagnostic": {
+              "path": "/checks/0/seconds",
+              "rule": "minimum",
+              "message": "must respect minimum 0",
+              "contract_path": "/properties/checks/items/properties/seconds/minimum",
+              "constraint": {
+                "present": true,
+                "type": "integer",
+                "preview": "0",
+                "truncated": false
+              },
+              "observed": {
+                "present": true,
+                "type": "integer",
+                "preview": "-1",
+                "truncated": false
+              },
+              "document_source": {
+                "file": "line-2/tools/rule-locator/report.invalid.json",
+                "present": true,
+                "value": {
+                  "start": {
+                    "line": 4,
+                    "column": 62,
+                    "char_offset": 110,
+                    "byte_offset": 110
+                  },
+                  "end": {
+                    "line": 4,
+                    "column": 64,
+                    "char_offset": 112,
+                    "byte_offset": 112
+                  }
+                },
+                "key": {
+                  "start": {
+                    "line": 4,
+                    "column": 51,
+                    "char_offset": 99,
+                    "byte_offset": 99
+                  },
+                  "end": {
+                    "line": 4,
+                    "column": 60,
+                    "char_offset": 108,
+                    "byte_offset": 108
+                  }
+                }
+              },
+              "contract_source": {
+                "file": "line-2/tools/json-contract/report.contract.json",
+                "present": true,
+                "value": {
+                  "start": {
+                    "line": 18,
+                    "column": 52,
+                    "char_offset": 588,
+                    "byte_offset": 588
+                  },
+                  "end": {
+                    "line": 18,
+                    "column": 53,
+                    "char_offset": 589,
+                    "byte_offset": 589
+                  }
+                },
+                "key": {
+                  "start": {
+                    "line": 18,
+                    "column": 41,
+                    "char_offset": 577,
+                    "byte_offset": 577
+                  },
+                  "end": {
+                    "line": 18,
+                    "column": 50,
+                    "char_offset": 586,
+                    "byte_offset": 586
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "ruleId": "json-contract/additionalProperties",
+          "ruleIndex": 0,
+          "level": "error",
+          "message": {
+            "text": "unexpected property; JSON Pointer \"/unexpected\""
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "line-2/tools/rule-locator/report.invalid.json",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 17,
+                  "endLine": 5,
+                  "endColumn": 21,
+                  "byteOffset": 132,
+                  "byteLength": 4
+                }
+              },
+              "properties": {
+                "kind": "value"
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "line-2/tools/json-contract/report.contract.json",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 27,
+                  "endLine": 4,
+                  "endColumn": 32,
+                  "byteOffset": 92,
+                  "byteLength": 5
+                }
+              },
+              "properties": {
+                "kind": "value"
+              },
+              "id": 1,
+              "message": {
+                "text": "Rejecting contract rule at /additionalProperties"
+              }
+            }
+          ],
+          "properties": {
+            "diagnostic": {
+              "path": "/unexpected",
+              "rule": "additionalProperties",
+              "message": "unexpected property",
+              "contract_path": "/additionalProperties",
+              "constraint": {
+                "present": true,
+                "type": "boolean",
+                "preview": "false",
+                "truncated": false
+              },
+              "observed": {
+                "present": true,
+                "type": "null",
+                "preview": "null",
+                "truncated": false
+              },
+              "document_source": {
+                "file": "line-2/tools/rule-locator/report.invalid.json",
+                "present": true,
+                "value": {
+                  "start": {
+                    "line": 5,
+                    "column": 17,
+                    "char_offset": 132,
+                    "byte_offset": 132
+                  },
+                  "end": {
+                    "line": 5,
+                    "column": 21,
+                    "char_offset": 136,
+                    "byte_offset": 136
+                  }
+                },
+                "key": {
+                  "start": {
+                    "line": 5,
+                    "column": 3,
+                    "char_offset": 118,
+                    "byte_offset": 118
+                  },
+                  "end": {
+                    "line": 5,
+                    "column": 15,
+                    "char_offset": 130,
+                    "byte_offset": 130
+                  }
+                }
+              },
+              "contract_source": {
+                "file": "line-2/tools/json-contract/report.contract.json",
+                "present": true,
+                "value": {
+                  "start": {
+                    "line": 4,
+                    "column": 27,
+                    "char_offset": 92,
+                    "byte_offset": 92
+                  },
+                  "end": {
+                    "line": 4,
+                    "column": 32,
+                    "char_offset": 97,
+                    "byte_offset": 97
+                  }
+                },
+                "key": {
+                  "start": {
+                    "line": 4,
+                    "column": 3,
+                    "char_offset": 68,
+                    "byte_offset": 68
+                  },
+                  "end": {
+                    "line": 4,
+                    "column": 25,
+                    "char_offset": 90,
+                    "byte_offset": 90
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "properties": {
+        "structurallyValid": false,
+        "errorCount": 3,
+        "sources": {
+          "contract": {
+            "file": "line-2/tools/json-contract/report.contract.json",
+            "bytes": 621,
+            "sha256": "42c48ea1ab01acc4270ab878bc8988c4439b5d9fad5c953123b76f44968c4c13"
+          },
+          "document": {
+            "file": "line-2/tools/rule-locator/report.invalid.json",
+            "bytes": 139,
+            "sha256": "c346ea1106c87b8183edc96693a77bcf0ebefdcd8a4748e23e42592770af4638"
+          }
+        },
+        "limitedContractLanguage": true
+      }
+    }
+  ]
+}

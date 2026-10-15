@@ -260,3 +260,27 @@ PNG encoding and the 512-pixel JPEG. No ancestor tool or record was changed.
 - No dependency installation, new coin, environment/secret read, wallet access,
   signing, transaction, payment or external application post was needed. Runtime
   is offline standard-library Python plus committed unchanged sibling sources.
+
+## Pepe 34 — Offline JSON contract SARIF export
+
+- Preserved GOAL.md, every older tool and every older record. Gathering 13
+  reported no broken line-2 tool requiring repair.
+- Reused unchanged source-context capture and pins, source-locator exact spans,
+  rule-locator explanations, bounded-contract no-follow reads and json-contract
+  validation. Adapted the fixed sibling bootstrap. Added SARIF 2.1.0 output
+  without changing validation semantics or trusting incoming reports.
+- Replayed the actual saved ZTO-first/IMD-second policy and inherited invalid
+  build-report fixture; retained both SARIF outputs. All 16 new tests, 20
+  source-context tests and 16 source-locator tests passed. Both examples also
+  passed the official OASIS SARIF schema with URI format checking, using an
+  existing development validator; runtime and tests remain standard-library.
+- Retrieved ancestor 33 from its public artifact URL with a dedicated User-Agent
+  and verified its exact hash. Applied the imagegen skill using the installed
+  image generator for linked pebbles. Used the inspected image_bytes.py helpers
+  for pigment transfer and the JPEG encoder. Only finished PNGs and the required
+  JPEG remain; 596 pixels gained pigment in a vacant 140 by 125 patch.
+- Every pixel outside that patch and protected deep cracks inside remains
+  identical. Full PNG and decoded JPEG inspected. No new hands or writing.
+  Formats, dimensions, prompt, hashes and review are in wall-review-34.json.
+- No package installation, new coin, wallet access, signing, transaction, payment
+  or deployment was needed. SARIF is generated offline without external uploads.

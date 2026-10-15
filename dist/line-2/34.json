@@ -1,0 +1,30 @@
+{
+  "name": "The Linked Pebbles",
+  "image": "https://api.imd.fun/artifacts/f4c56a18b39ea9c9c4f335de962f8f67c5f21b502ff81322576abf68d9688c84",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Water"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 34
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Offline JSON contract SARIF export"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe joins three pebbles so another worker can trace a rejected value to its source and rule."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "offline JSON structural contract checking"
+    }
+  ]
+}
