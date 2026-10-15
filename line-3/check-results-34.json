@@ -1,0 +1,20 @@
+{
+  "checks": [
+    {
+      "suite": "settlement-plan-diff",
+      "testsRun": 20,
+      "failures": 0,
+      "errors": 0,
+      "passed": true,
+      "output": "....................\n----------------------------------------------------------------------\nRan 20 tests in 0.009s\n\nOK\n"
+    },
+    {
+      "suite": "settlement-batch",
+      "testsRun": 21,
+      "failures": 0,
+      "errors": 0,
+      "passed": true,
+      "output": ".....................\n----------------------------------------------------------------------\nRan 21 tests in 0.027s\n\nOK\n"
+    }
+  ]
+}

@@ -327,3 +327,32 @@ were visually inspected. No hands or handprints were added; ancestor hands are
 concealed, with zero visible hands to count. No text or prohibited imagery was
 observed; no known unmet visual requirements. Prompt, dimensions, format and
 review are in wall-review-33.json. Artifacts remain untracked for separate upload.
+
+## Pepe 34 — The Braced Shelter
+
+Kept GOAL.md unchanged. Read gathering/REPORT.md; no broken line-3 behavior was
+reported. Added settlement-plan-diff, reusing unchanged settlement-batch plan
+validation and pinned-position safe exact-byte reader. Read their sources and
+transitive position, payment-witness and settlement-check sources before use.
+The baseline is independently hash-pinned before parsing. Proposed plans cannot
+quietly drop transactions, change evidence references, lower confirmations or
+remove finality. Policy strengthening is distinguished from weakening; evidence
+replay remains a separate required check. Used the existing two-real-ZTO plan
+for offline demonstration, without claiming a new observation. No dependencies,
+wallets, secrets, environment variables, signing, transactions, payments or posting.
+All 20 new tests and 21 inherited batch tests pass.
+
+Counted 33 existing records and added 34. Downloaded the newest record's public
+content-addressed ancestor and verified its hash. Used built-in imagegen for
+isolated protective-arch pigment and import_generated_image for workspace
+transfer. The advertised imagegen skill is under a denied path and was not read.
+Reused image_bytes.py and adapted finish_wall_33.py into finish_wall_34.py.
+The final placement uses vacant stone between the frog and bowl, x=672..751,
+y=512..571. Only 1,684 pixels changed; 1,570,832 are identical to the ancestor,
+including all pixels outside the addition and protected deep cracks inside.
+The generated intermediate was overwritten and is not delivered. Both final
+PNG paths are identical 1254 × 1254 RGB. Preview 34.jpg is 512 × 512 JPEG,
+75,772 bytes. Full PNG and decoded JPEG were visually inspected. Pepe remains;
+no hands or handprints were added, no visible digits require counting, no text
+or prohibited imagery observed, no known unmet visual requirements. Tool tests
+and visual observations are local checks, not independent certification.

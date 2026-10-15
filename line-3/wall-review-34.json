@@ -1,0 +1,41 @@
+{
+  "ancestorSha256": "102fcf06dd7c9fbba9d875b941ad1ed76c5a983d365a57e5d0430a2b39624e73",
+  "ancestorDimensions": [
+    1254,
+    1254
+  ],
+  "wallDimensions": [
+    1254,
+    1254
+  ],
+  "wallFormat": "PNG",
+  "wallMode": "RGB",
+  "wallSha256": "85f1f89bbc57722d8436a6617b58c9f4725043fa10e5300b84e650405da7b803",
+  "generatedDraftSha256": "041e707c47d2bd9933dcdb0b97cbc6eabcd58549ff051d4410e869720cb82c27",
+  "draftRetained": false,
+  "additionRectangle": [
+    672,
+    512,
+    80,
+    60
+  ],
+  "changedPixels": 1684,
+  "unchangedPixels": 1570832,
+  "allPixelsOutsideAdditionUnchanged": true,
+  "deepCracksProtected": true,
+  "previewDimensions": [
+    512,
+    512
+  ],
+  "previewFormat": "JPEG",
+  "previewBytes": 75772,
+  "previewQuality": 52,
+  "imageTool": "image_gen__imagegen",
+  "prompt": "Isolated prehistoric red ochre pebble under irregular charcoal protective arch, with two ochre wedges bracing its sides. Worn Lascaux mineral pigment on white. No text, letters, numerals, hands, logos or borders.",
+  "reviewStatus": "Full PNG and decoded 512px JPEG visually inspected",
+  "unmetVisualRequirements": [],
+  "visibleHands": 0,
+  "newHands": 0,
+  "digitReview": "No new hands or handprints; inherited hands remain concealed.",
+  "visualReview": "Pepe retains wide mouth and heavy-lidded eyes. New worn protective arch and stone sit on vacant rock; ancestral pigments, cracks, torchlight and framing remain. No letters, numbers, captions, watermarks, borders or prohibited imagery observed."
+}

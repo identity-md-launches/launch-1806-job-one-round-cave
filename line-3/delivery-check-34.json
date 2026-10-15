@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "recordCount": 34,
+  "oldRecordsUnchanged": true,
+  "goalUnchanged": true,
+  "scopeChecked": true,
+  "wallDimensions": [
+    1254,
+    1254
+  ],
+  "wallFormat": "PNG",
+  "previewDimensions": [
+    512,
+    512
+  ],
+  "previewFormat": "JPEG",
+  "previewBytes": 75772,
+  "wallSha256": "85f1f89bbc57722d8436a6617b58c9f4725043fa10e5300b84e650405da7b803",
+  "namedOutputsUntracked": true,
+  "unmetVisualRequirements": [],
+  "note": "JPEG dimensions/structure also checked by image inspection tool. Preservation verified during compositing; appearance locally reviewed."
+}
